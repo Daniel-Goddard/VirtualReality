@@ -1,0 +1,198 @@
+body {
+    background-image: url(VR2.png);
+    background-repeat: no-repeat;
+    font-family: Verdana;
+    color: white;
+}
+
+h3>em {
+    position: relative;
+    top: 10%;
+    left: 0.3%;
+    color: white;
+    background: -moz-linear-gradient(left, #8042FE 20%, #4F3AF4 80%);
+    background: -webkit-linear-gradient(left, #8042FE 20%, #4F3AF4 80%);
+    background: linear-gradient(left to right, #8042FE 20%, #4F3AF4 80%);
+}
+
+#menu {
+    position: absolute;
+    top: 2%;
+    left: 55%;
+    width: 560px;
+    height: 40px;
+    font-family: calibri;
+    font-size: 14pt;
+    text-align: center;
+    line-height: 40px;
+    display: inline;
+}
+
+#home {
+    width: 80px;
+    height: 40px;
+    float: left;
+    color: white;
+}
+
+#home:hover {
+    cursor: pointer;
+}
+
+#about {
+    width: 80px;
+    height: 40px;
+    float: left;
+    color: white;
+}
+
+#about:hover {
+    cursor: pointer;
+}
+
+#product {
+    width: 80px;
+    height: 40px;
+    float: left;
+    color: white;
+}
+
+#product:hover {
+    cursor: pointer;
+}
+
+#service {
+    width: 80px;
+    height: 40px;
+    float: left;
+    color: white;
+}
+
+#service:hover {
+    cursor: pointer;
+}
+
+#contact {
+    width: 80px;
+    height: 40px;
+    float: left;
+    color: white;
+}
+
+#contact:hover {
+    cursor: pointer;
+}
+
+#signup {
+    width: 80px;
+    height: 40px;
+    float: left;
+    color: white;
+}
+
+#signup:hover {
+    cursor: pointer;
+}
+
+#login {
+    width: 80px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    color: white;
+    background: -moz-linear-gradient(left, #8042FE 20%, #4F3AF4 80%);
+    background: -webkit-linear-gradient(left, #8042FE 20%, #4F3AF4 80%);
+    background: linear-gradient(left to right, #8042FE 20%, #4F3AF4 80%);
+}
+
+#login:hover {
+    cursor: pointer;
+}
+
+#buy {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 10px 20px;
+    font: normal 16px/normal Verdana, Geneva, sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: -webkit-linear-gradient(-90deg, #8042FE 0, #8042FE 1%, #4F3AF4 87%, #4F3AF4 100%);
+    background: -moz-linear-gradient(180deg, #8042FE 0, #8042FE 1%, #4F3AF4 87%, #4F3AF4 100%);
+    background: linear-gradient(180deg, #8042FE 0, #8042FE 1%, #4F3AF4 87%, #4F3AF4 100%);
+    background-position: 50% 50%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+    text-shadow: -1px -1px 0 rgba(15, 73, 168, 0.66);
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+#main {
+    width: 540px;
+    padding: 1px;
+    font-size: 12px;
+}
+
+#header-1 {
+    font-size: 10vh;
+}
+
+p {
+    font-size: 3vh;
+}
+
+#learn {
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid purple;
+    padding: 10px 20px;
+}
+
+#icons {
+    display: flex;
+}
+
+.fa {
+    position: flex;
+    padding: 10px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
