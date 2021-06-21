@@ -15,7 +15,7 @@ h3>em {
     background: linear-gradient(left to right, #8042FE 20%, #4F3AF4 80%);
 }
 
-#menu {
+.menu {
     position: absolute;
     top: 2%;
     left: 55%;
@@ -28,73 +28,73 @@ h3>em {
     display: inline;
 }
 
-#home {
+.home {
     width: 80px;
     height: 40px;
     float: left;
     color: white;
 }
 
-#home:hover {
+.home:hover {
     cursor: pointer;
 }
 
-#about {
+.about {
     width: 80px;
     height: 40px;
     float: left;
     color: white;
 }
 
-#about:hover {
+.about:hover {
     cursor: pointer;
 }
 
-#product {
+.product {
     width: 80px;
     height: 40px;
     float: left;
     color: white;
 }
 
-#product:hover {
+.product:hover {
     cursor: pointer;
 }
 
-#service {
+.service {
     width: 80px;
     height: 40px;
     float: left;
     color: white;
 }
 
-#service:hover {
+.service:hover {
     cursor: pointer;
 }
 
-#contact {
+.contact {
     width: 80px;
     height: 40px;
     float: left;
     color: white;
 }
 
-#contact:hover {
+.contact:hover {
     cursor: pointer;
 }
 
-#signup {
+.signup {
     width: 80px;
     height: 40px;
     float: left;
     color: white;
 }
 
-#signup:hover {
+.signup:hover {
     cursor: pointer;
 }
 
-#login {
+.login {
     width: 80px;
     height: 40px;
     float: left;
@@ -105,11 +105,11 @@ h3>em {
     background: linear-gradient(left to right, #8042FE 20%, #4F3AF4 80%);
 }
 
-#login:hover {
+.login:hover {
     cursor: pointer;
 }
 
-#buy {
+.buy {
     display: inline-block;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
@@ -139,13 +139,13 @@ h3>em {
     transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
 }
 
-#main {
+.main {
     width: 540px;
     padding: 1px;
     font-size: 12px;
 }
 
-#header-1 {
+.header-1 {
     font-size: 10vh;
 }
 
@@ -153,14 +153,14 @@ p {
     font-size: 3vh;
 }
 
-#learn {
+.learn {
     display: inline-block;
     cursor: pointer;
     border: 2px solid purple;
     padding: 10px 20px;
 }
 
-#icons {
+.icons {
     display: flex;
 }
 
